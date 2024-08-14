@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.side-section{
+  width: 300px;
+  background:black; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+   
+}
+
+.Nav-section{
+    background:rgb(39, 38, 38) ;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+.Nav-section-2{
+    background:rgb(39, 38, 38) ;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    
+}
+
+.Nav-section .logo{
+    width: 120px;
+}
+
+.Nav-section .logo img{
+    width: 100%;
+}
+
+.Nav-section ul {
+    list-style: none;
+}
+
+
+.Nav-section ul li {
+    padding:10px 20px ;
+}
+
+
+.Nav-section ul li a:hover {
+    color: white;
+}
+.Nav-section-2 ul li {
+    padding:10px 20px ;
+}
+
+
+.Nav-section-2 ul li a:hover {
+    color: white;
+}
+
+
+.Nav-section ul li a{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Nav-section ul li a i{
+    font-size: 20px;
+    margin-right: 10px;
+   
+}
+
+.Nav-section-2 ul li a{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.library::after{
+    content:"+";
+    float: right;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.playlist{
+    background:#302f2f ;
+    padding: 30px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.scroll{
+    height: 120px;
+    overflow-y: auto;
+}
+.scroll::-webkit-scrollbar{
+    background: transparent;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background:transparent;
+    width: 10px;
+}
+.scroll:hover::-webkit-scrollbar-thumb{
+    background:#5c5b5b;
+    width: 5px;
+}
+.playlist h3{
+    color: white;
+    font-size: 15px;
+    margin: 12px 0;
+}
+.playlist p{
+    color: white;
+    font-size: 11px;
+    margin: 12px 0;
+}
+
+.playlist button{
+    padding: 8px 15px;
+    border:0;
+    outline: 0;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.side-bottom ul li a{
+    text-decoration: none;
+    color:rgb(185, 182, 182) ;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+.side-bottom ul li a:hover{
+    text-decoration:underline;
+    color: #bebcbc;
+}
+
+.side-bottom ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.side-bottom ul li{
+    padding: 0px 10px;
+    padding-bottom: 8px;
+}
+
+.btn{
+    padding: 20px 30px;
+}
+
+.btn button{
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+    border: 1px solid #e0e0d7;
+    border-radius: 20px;
+}
+
+.btn button:hover{
+    padding: 11px 31px;
+    border: 1px solid white;
+}
+
+.main-sec{
+    margin-left: 300px;
+    background: #181818;
+    
+}
+.main-sec .top-nav{
+ padding: 10px 30px;
+ background: #1b1b1b;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ position: fixed;
+ width: 80%;
+}
+
+.main-sec .top-nav .prev-btn button{
+    background:transparent;
+    border: 0;
+    outline: 0;
+}
+.main-sec .top-nav .prev-btn button{
+    color: rgb(156, 152, 152);
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.top-nav .login-btn .sign{
+    color: #838181;
+    font-size: 16px;
+    font-weight: 600;
+    background:#1b1b1b;
+    border: 0;
+    outline: 0;
+    margin-right:25px;
+
+}
+
+.top-nav .login-btn .sign:hover{
+   color: white; 
+}
+
+.top-nav .login-btn .login{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 15px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.top-nav .login-btn .login:hover{
+  background:#818080 ;
+}
+.popular-artist{
+    padding: 17px 50px;
+
+
+}
+
+.popular-artist h2{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.popular-artist h2:hover{
+   text-decoration: underline;
+}
+.popular-artist .artists{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.popular-artist .artists .items{
+    width: 190px;
+    min-width: 140px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+}
+.popular-artist .artists .items img{
+    width: 100%;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.popular-artist .artists h4{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.popular-artist .artists p{
+    color: rgb(131, 130, 130);
+}
+
+.popular-artist .artists .items:hover{
+   background-color: #3d3c3c;
+}
+
+.play-btn{
+    position: relative;
+}
+
+.play-btn i{
+    position: absolute;
+    padding: 14px;
+    background-color: #1db954;
+    border-radius: 50%;
+    right: 10px;
+    top: -40px;
+    opacity: 0;
+}
+
+.popular-artist .artists .items:hover .play-btn i{
+   opacity: 1;
+   transform:translateY(-20px) ;
+ }
+
+
+.popular-artist .artists .items .rect-img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
